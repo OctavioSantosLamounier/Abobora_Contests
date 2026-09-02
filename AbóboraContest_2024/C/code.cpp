@@ -19,7 +19,6 @@ int buscaBinaria (vector<int> v, int n, int b) {
         else 
             return meio;
     }
-
     return -1e9;
 }
 

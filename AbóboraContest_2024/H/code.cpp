@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n'
+
+int main() {
+    string str;
+    getline(cin,str);
+    int n;
+    cin >> n;
+
+    queue<string> qs;
+    stringstream inter(str);
+    string s;
+    while (inter >> s) 
+        qs.push(s);
+    
+    while (!qs.empty()) {
+        
+    }
+
+    cout << n << endl;
+    return 0;
+}
