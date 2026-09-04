@@ -15,9 +15,14 @@ int main() {
         qs.push(s);
     
     while (!qs.empty()) {
-        
-    }
+        for (int i=0; i<n; i++) {
+            string str = qs.front();
+            qs.pop();
+            qs.push(str);
+        }
 
-    cout << n << endl;
+        cout << qs.front() << ' ';
+        qs.pop();
+    }
     return 0;
 }
