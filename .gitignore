@@ -5,6 +5,3 @@
 **/output/
 **/.vscode/
 *.exe
-
-# cph
-**/.cph/
